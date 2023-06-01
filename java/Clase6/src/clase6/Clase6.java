@@ -34,21 +34,21 @@ public class Clase6 {
 //        System.out.println("valorPI = " + valorPI);
 //        
 //        //Pedir un valor
-          var entrada = new Scanner(System.in);
+          var entrada = new Scanner(System.in); //El '.in' quiere decir que la entrada de iformacion va hacer por la terminal.
 //        System.out.println("Digite una edad: ");
 //        edad = Integer.parseInt( entrada.nextLine());
 //        System.out.println("Edad = " + edad);
-        
-       //Conversion de tipos primitivos en java parte 2
-        var edadTexto = String.valueOf(10);
-        System.out.println("edadTexto = " + edadTexto);
-       
-        var fraseChar = "Programadores".charAt(0);
-        System.out.println("fraseChar = " + fraseChar);
-        
-        System.out.println("Digite un caracter: ");
-        fraseChar = entrada.nextLine().charAt(6);
-        System.out.println("fraseChar = " + fraseChar);
+//        
+//       //Conversion de tipos primitivos en java parte 2
+//        var edadTexto = String.valueOf(10);
+//        System.out.println("edadTexto = " + edadTexto);
+//       
+//        var fraseChar = "Programadores".charAt(0);
+//        System.out.println("fraseChar = " + fraseChar);
+//        
+//        System.out.println("Digite un caracter: ");
+//        fraseChar = entrada.nextLine().charAt(0);
+//        System.out.println("fraseChar = " + fraseChar);
         
         
     }
