@@ -28,8 +28,10 @@ public class CondicionalEjercicio3 {
         }
         
         // con la sentencia de control switch
+        System.out.println("Digite una calificacion entre 0 y 10: ");
+        var calificacion2 = entrada.nextInt();
         
-        switch(calificacion){
+        switch(calificacion2){
             case 10: case 9:
                 System.out.println("A");
                 break;

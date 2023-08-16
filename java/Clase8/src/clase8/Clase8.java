@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Clase8 {
     public static void main(String[] args) {
         // Operadores Unarios
-        /*var varA = 7;
+        var varA = 7;
         var varB = -varA;
         System.out.println("varA =" + varA);
         System.out.println("varB = " + varB); // El resultado sera un numero negativo
@@ -39,11 +39,11 @@ public class Clase8 {
         var varK = 8;
         var varL = varK--;
         System.out.println("varK = " + varK); // Aqui va a decrementar en 1
-        System.out.println("varL = " + varL);*/
+        System.out.println("varL = " + varL);
         
         // Operadores de igualdad y relacional
         
-        /*var aNum = 5;
+        var aNum = 5;
         var bNum = 4;
         var cNum = (aNum == bNum);
         System.out.println("cNum = " + cNum);
@@ -80,10 +80,10 @@ public class Clase8 {
         }
         else {
             System.out.println("Es menor de edad");
-        }*/
+        }
         
         // Operador Condicional 'and'
-        /*var valorA = 7;
+        var valorA = 7;
         var valorMinimo = 0;
         var valorMaximo = 10;
         var resultado = (valorA >= valorMinimo && valorA <= valorMaximo);
@@ -104,20 +104,20 @@ public class Clase8 {
         }
         else {
             System.out.println("Papa no puede asistir al juego de su hijo");
-        }*/
+        }
         
         // Operador Ternario
         
-       /* var resultadoT = (5 > 8) ? "Verdadero" : "Falso";
+        var resultadoT = (5 > 8) ? "Verdadero" : "Falso";
         System.out.println("resultadoT = " + resultadoT);
         
         var numeroT = 8;
         resultadoT = (numeroT % 2 == 0) ? "Es par" : "Es impar";
-        System.out.println("resultadoT = " + resultadoT);*/
+        System.out.println("resultadoT = " + resultadoT);
        
        // Prioridad de operadores
        
-       /*var x = 5;
+       var x = 5;
        var y = 10;
        var z = ++x + y--;
         System.out.println("x = " + x); // 6
@@ -128,7 +128,7 @@ public class Clase8 {
         System.out.println("solucion = " + solucion);
         
         solucion = (4 + 5) * 6 / 3; // 4 + 5 = 9 * 6 = 54 / 3 = 18
-        System.out.println("solucion = " + solucion);*/
+        System.out.println("solucion = " + solucion);
         
        // Ejercicio 1
        // Sacar el area y perimetro de un rectangulo
@@ -153,7 +153,7 @@ public class Clase8 {
         System.out.println("Digite otro numero: ");
         var numero2 = entrada.nextInt();
         
-        var resultado = (numero1 > numero2) ? "El numero mayor es el: " + numero1 : "El numero mayor es el: " + numero2;
-        System.out.println("resultado: " + resultado);
+        var resultadoR = (numero1 > numero2) ? "El numero mayor es el: " + numero1 : "El numero mayor es el: " + numero2;
+        System.out.println("resultado: " + resultadoR);
     }
    }
